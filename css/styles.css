@@ -231,6 +231,11 @@ a:hover {
 .contact-btn {
   width: 100%;
 }
+
+.container-sm > h2::selection {
+  background-color: aquamarine;
+}
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
